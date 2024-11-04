@@ -1,5 +1,6 @@
 import React from 'react'
+import * as S from './styles'
 
 export default function Main() {
-  return <div>Main</div>
+  return <S.Wrapper>Main</S.Wrapper>
 }
