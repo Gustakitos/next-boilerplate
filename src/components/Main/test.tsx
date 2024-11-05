@@ -5,7 +5,7 @@ describe(Main, () => {
   it('should render the heading', () => {
     const { container } = render(<Main />)
 
-    expect(screen.getByText('Main')).toBeInTheDocument()
+    expect(screen.queryByText('Typescript, ReactJS, NextJS e Styled Components')).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
